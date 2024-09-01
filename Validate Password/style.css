@@ -1,0 +1,47 @@
+.container {
+  width: 300px;
+  margin: 50px auto;
+}
+
+#password {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.strength-indicator {
+  height: 10px;
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+.weak {
+  background-color: red;
+}
+
+.medium {
+  background-color: orange;
+}
+
+.strong {
+  background-color: green;
+}
+
+.strength-message {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.weak-message {
+  color: red;
+}
+
+.medium-message {
+  color: orange;
+}
+
+.strong-message {
+  color: green;
+}
